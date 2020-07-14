@@ -9,7 +9,7 @@
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration
   def change 
-    create
+    create_table :students
     
   end
   
