@@ -9,9 +9,12 @@
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration
   def change 
-    create_table :students do |t|
-      t.string 
-    
+    create_table :costumes do |t|
+      t.string :name
+      t.string :price
+      t.string :size
+      t.string :image_url
+    end
   end
   
   
