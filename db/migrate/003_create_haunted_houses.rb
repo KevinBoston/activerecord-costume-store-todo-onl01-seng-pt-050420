@@ -6,7 +6,10 @@ class CreateCostumes < ActiveRecord::Migration
       t.string :location
       t.string :theme
       t.integer :price
-      
+      t.boolean :family_friendly
+      t.string :opening_date
+      t.string :closing_date
+      t.string :long_description
       t.timestamps null: false
     end
   end
